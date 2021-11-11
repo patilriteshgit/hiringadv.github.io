@@ -12,7 +12,7 @@ $role = (string)filter_input(INPUT_POST, 'role');
 $state = $_POST['state'];
 //connection
 
-$conn = new mysqli('localhost','id17779955_name','C-BsYDqAXtwI?h8*','id17779955_registercontact');
+$conn = new mysqli('localhost','id1777955_name','C-BsYDqAXtwIh','id177799_registercontact');
 
 if($conn->connect_error){
 die('Connection Failed : '.$conn->connect_error);
